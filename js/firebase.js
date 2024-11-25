@@ -1,12 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBbUU09utuXs5R5JtUg59j5AnGHXSIZ59I",
-  authDomain: "ochwettbewerb.firebaseapp.com",
-  databaseURL: "https://ochwettbewerb-default-rtdb.firebaseio.com",
-  projectId: "ochwettbewerb",
-  storageBucket: "ochwettbewerb.appspot.com",
-  messagingSenderId: "74662926991",
-  appId: "1:74662926991:web:16e9e997d35848e88caefa",
+  apiKey: "AIzaSyD53HsZ7pfMOwbGha3j17pH1LcmiY1qapA",
+  authDomain: "photocontestvote.firebaseapp.com",
+  databaseURL: "https://photocontestvote-default-rtdb.firebaseio.com",
+  projectId: "photocontestvote",
+  storageBucket: "photocontestvote.appspot.com",
+  messagingSenderId: "1024820648301",
+  appId: "1:1024820648301:web:632daeae8026807d4e2264"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
